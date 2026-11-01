@@ -1,0 +1,203 @@
+{
+  "report_stats": {
+    "num_train_pairs": 35000,
+    "en_vocab_size": 7224,
+    "hi_vocab_size": 8214,
+    "max_en_len": 20,
+    "max_hi_len": 24
+  },
+  "history_a": {
+    "train_loss": [
+      13.877212339161542,
+      12.046834392538596,
+      10.156057269152363,
+      8.33903278207142,
+      6.94354303963043,
+      5.923037746304407,
+      5.116851665012269,
+      4.483728630159631
+    ],
+    "val_loss": [
+      9.191500367373662,
+      9.062177074764115,
+      8.873307017735817,
+      8.945580538696413,
+      8.992501706114064,
+      9.349834380548224,
+      9.336655952900715,
+      9.791789323228986
+    ],
+    "train_acc": [
+      0.32179253560099885,
+      0.35211056369185545,
+      0.40053092168905086,
+      0.44867382061145983,
+      0.4914100170224892,
+      0.5342362001604763,
+      0.57100327701664,
+      0.6084152587493344
+    ],
+    "val_acc": [
+      0.17888262429523322,
+      0.21459080813258158,
+      0.27114300358790366,
+      0.2813941568426448,
+      0.29318298308559715,
+      0.2740474970100803,
+      0.291645310097386,
+      0.238851870835469
+    ]
+  },
+  "history_b": {
+    "train_loss": [
+      11.725366208257118,
+      6.972050037555526,
+      5.008363944292918,
+      3.9855903064295575,
+      3.381379586221268,
+      2.936487666971633,
+      2.6104680864861702,
+      2.3658719253857567
+    ],
+    "val_loss": [
+      8.936970424146994,
+      9.028304272587638,
+      9.412837193885176,
+      9.991911012332459,
+      9.844177328866097,
+      9.969350587358317,
+      10.071365260637949,
+      10.412286735611575
+    ],
+    "train_acc": [
+      0.3957241306907231,
+      0.5246001214820813,
+      0.5941298658447879,
+      0.6440200070489602,
+      0.6791973183955367,
+      0.7093203752446514,
+      0.7361589165598075,
+      0.7563234422922619
+    ],
+    "val_acc": [
+      0.22808815991799078,
+      0.22757560225525372,
+      0.16897317614898344,
+      0.14163676746967366,
+      0.2265504869297796,
+      0.2287715701349735,
+      0.22620878182128823,
+      0.16743550316077224
+    ]
+  },
+  "overall_bleu_baseline": 2.44,
+  "overall_bleu_attention": 3.38,
+  "length_results": {
+    "1-5 tokens": {
+      "count": 7,
+      "bleu_baseline": 2.91,
+      "bleu_attention": 4.2,
+      "difference": 1.29
+    },
+    "6-10 tokens": {
+      "count": 122,
+      "bleu_baseline": 2.27,
+      "bleu_attention": 3.38,
+      "difference": 1.1
+    },
+    "11-15 tokens": {
+      "count": 176,
+      "bleu_baseline": 5.88,
+      "bleu_attention": 8.85,
+      "difference": 2.97
+    },
+    "16+ tokens": {
+      "count": 295,
+      "bleu_baseline": 0.89,
+      "bleu_attention": 1.27,
+      "difference": 0.39
+    }
+  },
+  "vis_records": [
+    {
+      "id": 1,
+      "src": "the tea party is aghast .",
+      "ref": "चाय पार्टी भौचक्की है।",
+      "pred": "टी एच सी . . . टी .",
+      "image": "figures/attention_heatmap_1.png"
+    },
+    {
+      "id": 2,
+      "src": "this really is a must for our nation .",
+      "ref": "यह हमारे देश के लिए वास्तव में अनिवार्य वस्तु है।",
+      "pred": "<unk> <unk> . . <unk> . <unk> <unk> <unk> के लिए आयोजन वाला",
+      "image": "figures/attention_heatmap_2.png"
+    },
+    {
+      "id": 3,
+      "src": "\" the gas tax is just not sustainable , \" said lee munnich , a transportation policy expert at the university of minnesota .",
+      "ref": "मिनेसोटा विश्वविद्यालय में परिवहन नीति विशेषज्ञ ली मुनिख कहते हैं , \" गैस कर बिल्कुल संवहनीय नहीं है। \"",
+      "pred": "<unk> के <unk> , <unk> , <unk> , <unk> के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के अंतर्गत के",
+      "image": "figures/attention_heatmap_3.png"
+    },
+    {
+      "id": 4,
+      "src": "those drivers will soon pay the mileage fees instead of gas taxes to the state .",
+      "ref": "ये चालक जल्द ही राज्य को गैस कर के बजाय माइलेज शुल्क का भुगतान करेंगे।",
+      "pred": "राज्य के <unk> <unk> या <unk> के अंतर्गत में तीन के लिए सदस्य",
+      "image": "figures/attention_heatmap_4.png"
+    }
+  ],
+  "error_records": [
+    {
+      "case_id": 1,
+      "english": "there are a lot less expensive and less intrusive ways to do this .",
+      "reference": "ऐसा करने के लिए बहुत कम खर्चीले तथा कम हस्तक्षेप करने वाले तरीके भी हैं।",
+      "baseline_pred": "<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+      "attention_pred": "<unk> के के <unk> और <unk> के लिए बुलाना के लिए बुलाना",
+      "error_type": "Incorrect Word Order (Syntax Reordering Failure)",
+      "linguistic_analysis": "Model placed verb before object, failing to complete English SVO to Hindi SOV transformation.",
+      "heatmap_image": "figures/error_analysis_1.png"
+    },
+    {
+      "case_id": 2,
+      "english": "in oregon , planners are experimenting with giving drivers different choices .",
+      "reference": "ऑरेगॉन में , योजनाकार चालकों को भिन्न - भिन्न विकल्प देने का प्रयोग कर रहे हैं।",
+      "baseline_pred": "<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+      "attention_pred": "<unk> के <unk> <unk> <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के <unk> के",
+      "error_type": "Missing Word (Omission Failure)",
+      "linguistic_analysis": "Crucial auxiliary or noun dropped during translation due to premature termination or attention diffusion.",
+      "heatmap_image": "figures/error_analysis_2.png"
+    },
+    {
+      "case_id": 3,
+      "english": "they can choose a device with or without gps .",
+      "reference": "वे जी . पी . एस . युक्त या बिना जी . पी . एस . की डिवाइस चुन सकते हैं।",
+      "baseline_pred": "<unk> के <unk> <unk> <unk> <unk> <unk> <unk>",
+      "attention_pred": "<unk> के के या उसके के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के लिए के",
+      "error_type": "Incorrect Lexical Substitution",
+      "linguistic_analysis": "Generated a high-frequency synonym or semantically misaligned noun instead of domain-specific target term.",
+      "heatmap_image": "figures/error_analysis_3.png"
+    },
+    {
+      "case_id": 4,
+      "english": "other places are hoping to sell the concept to a wary public by having the devices do more , not less .",
+      "reference": "अन्य स्थानों को आशा है कि डिवाइस में कम की बजाय और अधिक सुविधा प्रदान करके चिंतित नागरिकों को यह अवधारण बेची जा सकती है।",
+      "baseline_pred": "किसी द्वारा या उसके द्वारा <unk> द्वारा <unk> द्वारा या अन्यथा द्वारा या अन्यथा द्वारा या अन्यथा से और <unk>",
+      "attention_pred": "जो इस निमित्त के <unk> के अंतर्गत के अंतर्गत <unk> के अंतर्गत अन्य उद्देश्य",
+      "error_type": "Unknown / Out-of-Vocabulary (OOV) Error",
+      "linguistic_analysis": "Source contains rare named entity mapped to <unk>, leading to generic or hallucinated Hindi completion.",
+      "heatmap_image": "figures/error_analysis_4.png"
+    },
+    {
+      "case_id": 5,
+      "english": "some transportation planners , though , wonder if all the talk about paying by the mile is just a giant distraction .",
+      "reference": "यद्यपि , कुछ परिवहन योजनाकारों को आश्चर्य होता है कि शायद मील के अनुसार भुगतान पर सारी चर्चा बड़ा विकर्षण है।",
+      "baseline_pred": "<unk> , <unk> , <unk> , <unk> , <unk> , <unk> , <unk> का <unk> <unk> <unk> का <unk>",
+      "attention_pred": "<unk> . <unk> , <unk> <unk> के अंतर्गत <unk> के अंतर्गत <unk>",
+      "error_type": "Diffuse Attention Focus (Long Dependency)",
+      "linguistic_analysis": "Attention distribution across input was nearly uniform (flat), causing the decoder to lose track of source subject.",
+      "heatmap_image": "figures/error_analysis_5.png"
+    }
+  ]
+}
