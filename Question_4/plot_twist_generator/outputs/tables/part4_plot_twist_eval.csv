@@ -1,0 +1,31 @@
+Prompt ID,Title,Model,Configuration,Prompt UNK Count,Tokens Generated,Distinct-1,Distinct-2,Rep-4,Prompt Connection (1-5),Meaningful Twist (1-5),Internal Consistency (1-5),Repetition & Coherence (1-5),Overall Quality (1-5),Key Diagnosis
+PT1,The Student's Exam Paper,Model A (Vanilla RNN),Greedy,3,100,0.21,0.242,0.732,2.5,1.5,2.0,1.0,1.75,Plot stalled completely due to repetitive phrase loop.
+PT1,The Student's Exam Paper,Model A (Vanilla RNN),"Top-k (k=40, T=0.8)",3,84,0.667,0.94,0.0,2.5,3.5,3.0,4.0,3.25,Advances narrative with character action and dialogue; introduces unexpected development.
+PT1,The Student's Exam Paper,Model A (Vanilla RNN),Temp 0.8,3,100,0.6,0.909,0.021,2.5,3.5,3.0,4.0,3.25,Advances narrative with character action and dialogue; introduces unexpected development.
+PT1,The Student's Exam Paper,Model B (LSTM),Greedy,3,59,0.441,0.655,0.25,3.0,2.5,3.5,2.5,2.88,Minor plot advance but hampered by cyclic phrasing.
+PT1,The Student's Exam Paper,Model B (LSTM),"Top-k (k=40, T=0.8)",3,100,0.59,0.889,0.01,3.0,4.0,4.0,4.5,3.88,Advances narrative with character action and dialogue; introduces unexpected development.
+PT1,The Student's Exam Paper,Model B (LSTM),Temp 0.8,3,88,0.659,0.885,0.012,3.0,2.5,4.0,4.5,3.5,Static description with limited plot progression.
+PT2,The Robot's Future Message,Model A (Vanilla RNN),Greedy,2,100,0.13,0.152,0.814,3.0,1.5,2.0,1.0,1.88,Plot stalled completely due to repetitive phrase loop.
+PT2,The Robot's Future Message,Model A (Vanilla RNN),"Top-k (k=40, T=0.8)",2,100,0.52,0.828,0.052,3.5,3.5,2.5,3.5,3.25,Advances narrative with character action and dialogue; introduces unexpected development.
+PT2,The Robot's Future Message,Model A (Vanilla RNN),Temp 0.8,2,84,0.679,0.94,0.0,3.0,2.5,3.0,4.0,3.12,Static description with limited plot progression.
+PT2,The Robot's Future Message,Model B (LSTM),Greedy,2,57,0.491,0.804,0.056,3.5,3.5,3.5,3.5,3.5,Presents sequential actions moving the scene forward.
+PT2,The Robot's Future Message,Model B (LSTM),"Top-k (k=40, T=0.8)",2,100,0.56,0.929,0.0,3.5,3.5,4.0,4.5,3.88,Presents sequential actions moving the scene forward.
+PT2,The Robot's Future Message,Model B (LSTM),Temp 0.8,2,88,0.602,0.931,0.0,4.0,4.0,4.0,4.5,4.12,Advances narrative with character action and dialogue; introduces unexpected development.
+PT3,The Pre-Crime Detective,Model A (Vanilla RNN),Greedy,5,100,0.27,0.364,0.577,2.0,1.5,2.0,1.0,1.62,Plot stalled completely due to repetitive phrase loop.
+PT3,The Pre-Crime Detective,Model A (Vanilla RNN),"Top-k (k=40, T=0.8)",5,100,0.62,0.899,0.01,2.0,3.5,3.0,4.0,3.12,Advances narrative with character action and dialogue; introduces unexpected development.
+PT3,The Pre-Crime Detective,Model A (Vanilla RNN),Temp 0.8,5,84,0.667,0.928,0.012,2.0,3.5,3.0,4.0,3.12,Advances narrative with character action and dialogue; introduces unexpected development.
+PT3,The Pre-Crime Detective,Model B (LSTM),Greedy,5,73,0.342,0.569,0.257,2.5,2.5,3.5,2.5,2.75,Minor plot advance but hampered by cyclic phrasing.
+PT3,The Pre-Crime Detective,Model B (LSTM),"Top-k (k=40, T=0.8)",5,100,0.59,0.869,0.01,2.5,4.0,4.0,4.5,3.75,Advances narrative with character action and dialogue; introduces unexpected development.
+PT3,The Pre-Crime Detective,Model B (LSTM),Temp 0.8,5,100,0.6,0.919,0.01,2.5,4.0,4.0,4.5,3.75,Advances narrative with character action and dialogue; introduces unexpected development.
+PT4,The Village Amnesia,Model A (Vanilla RNN),Greedy,0,100,0.28,0.354,0.577,4.0,1.5,2.0,1.0,2.12,Plot stalled completely due to repetitive phrase loop.
+PT4,The Village Amnesia,Model A (Vanilla RNN),"Top-k (k=40, T=0.8)",0,84,0.667,0.94,0.0,4.0,3.5,3.0,4.0,3.62,Advances narrative with character action and dialogue; introduces unexpected development.
+PT4,The Village Amnesia,Model A (Vanilla RNN),Temp 0.8,0,100,0.6,0.899,0.021,4.0,3.5,3.0,4.0,3.62,Advances narrative with character action and dialogue; introduces unexpected development.
+PT4,The Village Amnesia,Model B (LSTM),Greedy,0,57,0.491,0.804,0.056,4.0,3.5,3.5,3.5,3.62,Presents sequential actions moving the scene forward.
+PT4,The Village Amnesia,Model B (LSTM),"Top-k (k=40, T=0.8)",0,100,0.6,0.929,0.0,4.0,4.0,4.0,4.5,4.12,Advances narrative with character action and dialogue; introduces unexpected development.
+PT4,The Village Amnesia,Model B (LSTM),Temp 0.8,0,88,0.614,0.897,0.0,4.0,3.5,4.0,4.5,4.0,Presents sequential actions moving the scene forward.
+PT5,The Century-Old Letter,Model A (Vanilla RNN),Greedy,1,100,0.29,0.394,0.495,3.0,1.5,2.5,2.5,2.38,Plot stalled completely due to repetitive phrase loop.
+PT5,The Century-Old Letter,Model A (Vanilla RNN),"Top-k (k=40, T=0.8)",1,100,0.55,0.869,0.021,3.0,2.5,3.0,4.0,3.12,Static description with limited plot progression.
+PT5,The Century-Old Letter,Model A (Vanilla RNN),Temp 0.8,1,100,0.58,0.899,0.021,3.0,3.5,3.0,4.0,3.38,Advances narrative with character action and dialogue; introduces unexpected development.
+PT5,The Century-Old Letter,Model B (LSTM),Greedy,1,72,0.389,0.606,0.159,3.5,2.5,3.5,3.5,3.25,Minor plot advance but hampered by cyclic phrasing.
+PT5,The Century-Old Letter,Model B (LSTM),"Top-k (k=40, T=0.8)",1,100,0.57,0.939,0.0,3.5,4.0,4.0,4.5,4.0,Advances narrative with character action and dialogue; introduces unexpected development.
+PT5,The Century-Old Letter,Model B (LSTM),Temp 0.8,1,88,0.591,0.92,0.0,3.5,2.5,4.0,4.5,3.62,Static description with limited plot progression.

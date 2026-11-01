@@ -1,0 +1,5 @@
+Dimension,Mean Rater Score,Overall Std Dev,Pairwise Mean Abs Diff (MAD),Agreement Interpretation
+Coherence,3.29,0.66,0.51,Moderate Agreement (subjective divergence)
+Grammar,3.97,0.44,0.53,Moderate Agreement (subjective divergence)
+Relevance,3.21,0.51,0.47,Moderate Agreement (subjective divergence)
+Creativity,3.36,0.76,0.83,Moderate Agreement (subjective divergence)

@@ -1,0 +1,32 @@
+[
+  {
+    "Model Name": "Model A (Vanilla RNN)",
+    "Recurrent Backbone": "Vanilla Elman RNN (2 layers, tanh)",
+    "Embedding Dim": 256,
+    "Hidden Dim": 512,
+    "Recurrent Params": 919552,
+    "Total Params": 7687521,
+    "Best Epoch": 15,
+    "Best Val Loss": 3.1104,
+    "Best Val Perplexity": 22.43,
+    "Held-Out Test Loss": 2.9068,
+    "Held-Out Test Perplexity": 18.3,
+    "Total Train Time (s)": 2303.0,
+    "Avg Epoch Time (s)": 147.0
+  },
+  {
+    "Model Name": "Model B (LSTM)",
+    "Recurrent Backbone": "LSTM (2 layers, 4 gated states)",
+    "Embedding Dim": 256,
+    "Hidden Dim": 512,
+    "Recurrent Params": 3678208,
+    "Total Params": 10446177,
+    "Best Epoch": 15,
+    "Best Val Loss": 3.2251,
+    "Best Val Perplexity": 25.16,
+    "Held-Out Test Loss": 3.0527,
+    "Held-Out Test Perplexity": 21.17,
+    "Total Train Time (s)": 4788.0,
+    "Avg Epoch Time (s)": 309.1
+  }
+]

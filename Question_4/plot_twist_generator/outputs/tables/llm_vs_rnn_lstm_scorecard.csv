@@ -1,0 +1,6 @@
+Prompt ID,Title,Vanilla RNN (Overall),Vanilla RNN Rep-4,LSTM (Overall),LSTM Rep-4,SmolLM2-135M (Overall),SmolLM2-135M Rep-4
+PT1,The Student's Exam Paper,3.25,0.0,3.88,0.010309278350515427,4.67,0.0
+PT2,The Robot's Future Message,3.25,0.05154639175257736,3.88,0.0,4.67,0.011
+PT3,The Pre-Crime Detective,3.12,0.010309278350515427,3.75,0.010309278350515427,4.67,0.0
+PT4,The Village Amnesia,3.62,0.0,4.12,0.0,4.67,0.0
+PT5,The Century-Old Letter,3.12,0.020618556701030966,4.0,0.0,4.67,0.0

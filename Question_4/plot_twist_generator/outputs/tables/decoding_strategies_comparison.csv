@@ -1,0 +1,13 @@
+Model,Decoding Configuration,Strategy,Distinct-1 (Mean),Distinct-2 (Mean),Corpus Distinct-1,Corpus Distinct-2,Repetition Rate (Rep-4),Avg Length (Tokens),Premature EOS (%),Hit Max Context (%)
+Model A (Vanilla RNN),Greedy,greedy,0.192,0.236,0.068,0.103,0.73,100.0,0.0,100.0
+Model A (Vanilla RNN),Temp 0.5,temperature,0.493,0.796,0.209,0.514,0.059,98.2,0.0,80.0
+Model A (Vanilla RNN),Temp 0.8,temperature,0.593,0.902,0.279,0.663,0.007,98.4,0.0,90.0
+Model A (Vanilla RNN),Temp 1.2,temperature,0.717,0.976,0.298,0.573,0.0,79.3,0.0,60.0
+Model A (Vanilla RNN),"Top-k (k=10, T=0.8)",top_k,0.595,0.894,0.251,0.623,0.007,88.7,0.0,70.0
+Model A (Vanilla RNN),"Top-k (k=40, T=0.8)",top_k,0.56,0.875,0.26,0.646,0.009,94.0,0.0,80.0
+Model B (LSTM),Greedy,greedy,0.415,0.594,0.123,0.265,0.284,58.4,0.0,0.0
+Model B (LSTM),Temp 0.5,temperature,0.513,0.811,0.181,0.467,0.039,93.0,0.0,60.0
+Model B (LSTM),Temp 0.8,temperature,0.577,0.883,0.231,0.55,0.014,91.3,0.0,80.0
+Model B (LSTM),Temp 1.2,temperature,0.724,0.977,0.283,0.585,0.0,100.0,0.0,100.0
+Model B (LSTM),"Top-k (k=10, T=0.8)",top_k,0.561,0.886,0.193,0.536,0.011,95.1,0.0,80.0
+Model B (LSTM),"Top-k (k=40, T=0.8)",top_k,0.6,0.909,0.234,0.621,0.004,91.2,0.0,60.0

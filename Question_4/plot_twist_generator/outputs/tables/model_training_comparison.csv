@@ -1,0 +1,3 @@
+Model Name,Recurrent Backbone,Embedding Dim,Hidden Dim,Recurrent Params,Total Params,Best Epoch,Best Val Loss,Best Val Perplexity,Held-Out Test Loss,Held-Out Test Perplexity,Total Train Time (s),Avg Epoch Time (s)
+Model A (Vanilla RNN),"Vanilla Elman RNN (2 layers, tanh)",256,512,919552,7687521,15,3.1104,22.43,2.9068,18.3,2303.0,147.0
+Model B (LSTM),"LSTM (2 layers, 4 gated states)",256,512,3678208,10446177,15,3.2251,25.16,3.0527,21.17,4788.0,309.1
