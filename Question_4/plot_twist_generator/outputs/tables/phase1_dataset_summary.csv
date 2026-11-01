@@ -1,0 +1,13 @@
+Metric,Train Split,Validation Split,Test Split
+Number of Stories,"20,000","1,000","1,000"
+Total Raw Tokens,"4,259,586","213,456","185,295"
+Mean Story Length (Tokens),213.0,213.5,185.3
+Median Story Length (Tokens),182.0,183.0,173.0
+90th Percentile Length,346.0,350.2,236.1
+Min / Max Story Length (Tokens),53 / 1084,87 / 863,49 / 992
+Number of Training Chunks (L<=128),"44,499","2,237","2,033"
+OOV (<UNK>) Rate,N/A,0.18% (383 tokens),0.22% (405 tokens)
+Vocabulary Size (Shared),"8,801","8,801","8,801"
+Raw Unique Tokens (Pre-cutoff),"11,366",N/A,N/A
+Special Tokens,"<PAD>:0, <UNK>:1, <BOS>:2, <EOS>:3",Same,Same
+
