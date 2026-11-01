@@ -1,0 +1,3 @@
+Model,Sample_Count,Coherence_Mean,Coherence_SD,Grammar_Mean,Grammar_SD,Relevance_Mean,Relevance_SD,Creativity_Mean,Creativity_SD,Overall_Score_Mean,Overall_Score_SD
+Model A (Vanilla RNN),6,2.78,0.17,3.83,0.15,2.89,0.09,2.92,0.23,3.1,0.06
+Model B (LSTM),6,3.79,0.29,4.11,0.17,3.53,0.2,3.8,0.19,3.81,0.12
