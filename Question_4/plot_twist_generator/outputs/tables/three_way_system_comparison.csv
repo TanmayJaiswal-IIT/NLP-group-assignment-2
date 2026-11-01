@@ -1,0 +1,4 @@
+System,Architecture,Parameters,Pretrained,Prompt Connection (1-5),Meaningful Twist (1-5),Internal Consistency (1-5),Repetition & Coherence (1-5),Overall Story Score (1-5),Average Rep-4
+Model A: Vanilla RNN (from scratch),2-layer Elman RNN (tanh),7.69M,No (Trained on TinyStories),3.0,3.3,2.9,3.9,3.27,0.017
+Model B: LSTM (from scratch),2-layer LSTM (gated cell highway),10.45M,No (Trained on TinyStories),3.3,3.9,4.0,4.5,3.93,0.004
+SmolLM2-135M-Instruct (Transformer LLM),30-layer Causal Transformer,135M,Yes (Pretrained on 2T tokens),4.8,4.5,4.6,4.8,4.68,0.0

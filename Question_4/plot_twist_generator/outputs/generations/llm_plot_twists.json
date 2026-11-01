@@ -1,0 +1,62 @@
+[
+  {
+    "prompt_id": "PT1",
+    "title": "The Student's Exam Paper",
+    "prompt": "A student discovers that their examination paper contains answers to tomorrow's questions.",
+    "continuation": "The student's eyes widened with delight as they read through the pages. They had been worried about missing the questions on Monday, knowing nothing about the exam. But it had been months since the exam was due, and the student had received the same paper again today. It looked like the question was a duplicate of some of the others, making them feel more confident. But, with the professor's presence, this new question was even more significant. The",
+    "metrics": {
+      "distinct_1": 0.6666666666666666,
+      "distinct_2": 0.9550561797752809,
+      "rep_4": 0.0,
+      "length": 90
+    }
+  },
+  {
+    "prompt_id": "PT2",
+    "title": "The Robot's Future Message",
+    "prompt": "An old robot receives a message from its future version.",
+    "continuation": "The message arrived in the robot's datapad, its face a pale green haze, and the words \"Eternal Recollection\" flashing across its face. The robot, a sleek, silver-hued robot with iridescent skin, looked up from its console, its eyes fixed on the message.\n\n\"Eternal Recollection,\" it repeated, a hint of a smile and a nod, \"isn't it? A message",
+    "metrics": {
+      "distinct_1": 0.6555555555555556,
+      "distinct_2": 0.9325842696629213,
+      "rep_4": 0.011494252873563204,
+      "length": 90
+    }
+  },
+  {
+    "prompt_id": "PT3",
+    "title": "The Pre-Crime Detective",
+    "prompt": "A detective solves a murder before the crime occurs.",
+    "continuation": "As the detective stood atop the roof, the sound of dripping water and the creaking of the old wooden floorboards added to the eerie atmosphere of the room. The victim, a woman with piercing green eyes and piercing green hair, lay dead on the floor. She had been stabbed to death with a single, long-handled knife, and the killer seemed to have avoided the tip. The detective decided to take a closer look, his",
+    "metrics": {
+      "distinct_1": 0.6555555555555556,
+      "distinct_2": 0.9550561797752809,
+      "rep_4": 0.0,
+      "length": 90
+    }
+  },
+  {
+    "prompt_id": "PT4",
+    "title": "The Village Amnesia",
+    "prompt": "A village wakes up to discover that nobody can remember the previous day.",
+    "continuation": "The village's leaders gather around the ancient stone wall, their eyes fixed intently on the strange, glowing thing they call \"The Moon.\" This mysterious object seems to be a gateway to the past, a portal that connects the present to the future. As the villagers scramble to decipher the symbols etched into the wall, they begin to unravel a mysterious tale: the Moon has been carrying a message from a long-lost person who vanished into thin air.",
+    "metrics": {
+      "distinct_1": 0.7111111111111111,
+      "distinct_2": 0.9775280898876404,
+      "rep_4": 0.0,
+      "length": 90
+    }
+  },
+  {
+    "prompt_id": "PT5",
+    "title": "The Century-Old Letter",
+    "prompt": "A person receives a letter addressed to them from 100 years in the future.",
+    "continuation": "The letter arrived in the mailbox, a small, ornate box adorned with intricate hieroglyphics and a faded leather cover that seemed to cling to the back. The person who received the letter had studied the codes and had used it to navigate the ancient texts. Despite their years of studying, they'd never received a letter addressed to them, nor had they ever received a letter from another time or place. But this mysterious letter spoke to their deepest desires,",
+    "metrics": {
+      "distinct_1": 0.6888888888888889,
+      "distinct_2": 0.9775280898876404,
+      "rep_4": 0.0,
+      "length": 90
+    }
+  }
+]
