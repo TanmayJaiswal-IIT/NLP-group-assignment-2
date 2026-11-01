@@ -1,0 +1,37 @@
+# Configuration for Question 4: The Plot-Twist Generator
+seed: 42
+
+# Full dataset splits (cached from Phase 1)
+train_stories: 20000
+val_stories: 1000
+test_stories: 1000
+
+# Documented subset for CPU execution feasibility
+train_stories_subset: 3000
+val_stories_subset: 500
+test_stories_subset: 500
+
+# Vocabulary and Sequence
+max_vocab_size: 10000
+min_freq: 2
+max_seq_len: 128
+
+# Model Architecture (strictly identical for Vanilla RNN and LSTM)
+embed_dim: 256
+hidden_dim: 512
+num_layers: 2
+dropout: 0.2
+
+# Training Hyperparameters
+batch_size: 64
+lr: 0.001
+weight_decay: 0.00001
+grad_clip: 1.0
+epochs: 15
+patience: 2
+
+# Generation settings
+max_new_tokens: 100
+min_len_threshold: 15
+temperatures: [0.5, 0.8, 1.2]
+top_k_values: [10, 40]
